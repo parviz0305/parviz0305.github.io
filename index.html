@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <title>Joraev Parvix</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        main{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            background-color: #2b2a2a;
+            font-family: 'Dosis';
+            color: #fcc308;
+            letter-spacing: 0.8px;
+        }
+        .info-card{
+            display: flex;
+            justify-content: space-around;
+        }
+        h1{
+            font-size: 45px;
+        }
+        h2{
+            font-size: 30px;
+            text-align: center;
+            margin: 20px;
+        }
+        a{
+            color: crimson;
+            text-decoration: none;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+        .info{
+            margin: 30px;
+            border: 2px solid #fcc308;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .info:hover{
+            background-color: #fcc308;
+            color: #2b2a2a;
+        }
+        .info span{
+            color: #086afc;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li::before{
+            content: "\2022";  
+            color: red; 
+            font-weight: bold;
+            margin: 4px;
+        }
+
+        .add-info-card1{
+            width: 750px;
+            height: 500px;
+            margin: 30px;
+            border: 2px solid #fcc308;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .add-info-card2{
+            width: 750px;
+            height: 250px;
+            margin: 30px;
+            border: 2px solid #fcc308;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .centerer{
+            text-align: center;
+        }
+        .images{
+            display: flex;
+            justify-content: space-around;
+        }
+        .sad-card{
+            border: 2px solid #fcc308;
+            width: 350px;
+            height: 300px
+        }
+        .sad-img{
+            width: 100%;
+            height: 100%;
+        }
+        .happy-card{
+            border: 2px solid #fcc308;
+            width: 300px;
+            height: 300px
+        }
+        .happy-img{
+            width: 100%;
+            height: 100%;
+        }
+        .add-info{
+            margin: 50px;
+        }
+    </style>
+
+
+
+
+
+    <main>
+        <h1>Hello It's Joraev Parviz</h1>
+        <div class="info-card">
+            <div class="info">
+                <h2>My Learning Journey</h2>
+                <p>I'am a student at <b><a href="https://inha.uz/">Inha University</a></b></p>
+                <p>Currently I'm a <b><span>freshman</span></b> student</p>
+                <p>Here are list of classes I'm taking:</p>
+                <ul>
+                    <li>Academic English Reading</li>
+                    <li>Academic English 1</li>
+                    <li>Calculus 1</li>
+                    <li>Physics 1</li>
+                    <li>Physics Experiment 1</li>
+                    <li>OOP 1</li>
+                    <li>introduction to IT</li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2>My interests</h2>
+                <p>My three favourite show are:</p>
+                <ul>
+                    <li>Fate Grand Order</li>
+                    <li>One piece</li>
+                    <li>Boku no pico</li>
+                </ul>
+                <p>One of the things that I like to do <br> is to read <a href="https://mangaplus.shueisha.co.jp/titles/100020">One piece</a> manga</p>
+            </div>
+        </div>
+
+
+
+        <div class="add-info-card1">
+            <p class="centerer">Sad and happy: </p>
+            <div class="images">
+                <div class="sad">
+                    <div class="sad-card">
+                        <img class="sad-img" src="./sad.jpg" alt="" />
+                    </div>
+                    <p>Mr.stark, I don't feel good</p>
+                </div>
+                <div class="happy">
+                    <div class="happy-card">
+                        <img class="happy-img" src="./happy.jpg" alt="" />
+                    </div>
+                    <p>I don't think this flower is happy. <br> Someone took parts of his body just <br>  to represent this ugly smile.</p>
+                </div>
+            </div>
+        </div>
+        <div class="add-info-card2">
+            <div class="add-info">
+                <p class="centerer">My neighbour: </p>
+                <p>Currently I am doing this task at home so no one is near me, but I want to thank my friend Sharofiddin.</p>
+                <p>He is a really good guy, who helped me to understand this task.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
